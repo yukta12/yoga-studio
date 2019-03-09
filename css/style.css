@@ -1,0 +1,351 @@
+
+/*************************************************
+
+        PROJECT NAME     :      WHITE GRAPHICS
+
+                    DEFAULT VALUES
+        FONT             :      Roboto Condensed
+        
+        HEADINGS         :  #251C3C;
+        SECINDARY        :  #FE3B00
+        ALTERNATE SECTIONS : #F2F4F7
+
+        White            :      #FFF (Text with dark bg)
+
+        Black            :      #000
+
+
+*************************************************/
+
+/*************************************************
+                GENERAL CSS SECTION
+*************************************************/
+html,
+body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto Condensed',sans-serif;
+    letter-spacing: .05em;
+}
+
+h3{
+    text-transform: uppercase;
+    color: #251C3C;
+    font-weight: 700;
+}
+p{
+    color: #251C3C;
+    font-size: 16px;
+    font-weight: 300px;
+}
+/*************************************************
+                BUTTON SECTION GENERIC
+*************************************************/
+.btn-orange{
+    background: #FE3B00;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+.btn-orange-inverted{
+    background: #fff;
+    color: #FE3B00;
+    border-radius: 3px;
+    padding: 10px 15px;
+     border: solid 2px #FE3B00
+}
+.btn-orange:hover{
+    border: solid 2px #FE3B00;
+    background: #fff;
+    color: #333;
+}
+.btn-orange-inverted:hover{
+    border: solid 2px #fff;
+    background: #FE3B00;
+    color: #fff;
+}
+/********************************************************
+                HEADER/NAVIGATION SECTION
+********************************************************/
+
+.navbar{
+    padding: 10px 0;
+    transition: all 0.5s ease-in-out;
+    border: none;
+}
+.top-nav{
+    background-color: #F2F4F7;
+}
+.nav-wrapper{
+/*    padding: 0 50px;*/
+    padding: 0 10px;
+}
+.navbar-brand{
+    color: #FE3B00;
+    font-size: 26px;
+}
+.navbar-brand:hover{
+    color: #FE3B00;
+    
+}
+#menu{
+    float: right;
+}
+.navbar-nav>li>a{
+    color: #FE3B00;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:hover{
+    background: none;
+    color: #251C3C;
+}
+.navbar-toggle{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 1px #FE3B00;
+    border-radius: 0;
+}
+.navbar-toggle .icon-bar{
+    background-color: #FE3B00;
+}
+
+.navbar-collapse{
+    max-height: none!important;
+    border: none;
+}
+
+.navbar ul.navbar-nav>li.active>a{
+    color: #251C3C;
+}
+/************************************************
+            HOME SECTION
+************************************************/
+
+.heading{
+    font-weight: 900;
+    font-size: 56px;
+    color: #251C3C;
+    margin : 5% 5% 0 15%;
+    text-align: right;
+}
+.heading-text{
+    color: #333;
+    text-align: justify;
+    font-size: 18px;
+}
+.top-heading{
+    color: #FE3B00;
+     margin :  40% 5% 0 15% ;
+     text-align: right;
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.home-img{
+    margin-top: 17%;
+}
+
+
+/**********************************************
+        ABOUT SECTION
+**********************************************/
+.img{
+    margin: 10%;
+}
+
+#about-us{
+    background-color: #F2F4F7;
+    margin-top: 10%;
+}
+
+.about-heading{
+     color: #251C3C;
+    font-weight: 900;
+    margin-top: 15%;
+    font-size: 48px;
+    font-family: serif;
+    letter-spacing: 0;
+    line-height: normal; 
+}
+.points li{
+    list-style: none;
+    padding: 15px 0;
+   
+}
+.points ul{
+    padding: 0;
+    margin-top: 3%;
+}
+.points li:before
+{
+/*    font-family: "Font Awesome 5 Free";*/
+    content: '\2713';
+    background:  #FE3B00;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px 5px;
+    margin-right: 5px;
+}
+/***********************************************
+            Learn-more section
+************************************************/
+
+#learn-more{
+    margin-top: 5%;
+}
+.learn-more-heading{
+    margin-left: 15%;
+/*    padding-left: 10%;*/
+    text-align: justify;
+}
+.learn-more-text{
+    margin-left: 15%;
+    padding: 5% 0;
+    letter-spacing: 1px;
+}
+#learn-more .btn-orange{
+    margin-left: 15%;
+    font-size: 18px;
+}
+
+
+.container-wrapper{
+/*    border: solid 1px #F2F4F7;*/
+    padding: 2%;
+    border-radius: 5%;
+     box-shadow: 10px 5px #F2F4F7;
+}
+.img-wrapper{
+    text-align: center;
+    margin: 0 25% ;
+}
+.wrapper-heading{
+    color: #251C3C;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.wrapper-text{
+    text-align: center;
+    margin-top: 3%;
+}
+.wrapper-1{
+    position: absolute;
+    z-index: 0;
+}
+.wrapper-2{
+    position: absolute;
+    top: 200px;
+    left: -50px;
+    right: 50px;
+    z-index: 99 !important;
+}
+.wrapper-3{
+    position: absolute;
+    top: 460px;
+    left: -20px;
+    z-index: 99;
+}
+
+
+/************************************
+        TESTUMONIALS
+**************************************/
+
+#testimonials{
+     margin-top: 20%;
+    background: #F2F4F7;
+    padding: 10% 0; 
+}
+.testimonial-img{
+    padding: 0;
+}
+.col-md-4{
+    padding: 0;
+}
+.user-1-img{
+    width: 100px;
+    height: 100px;
+    margin: 3% 0 0 10%;
+}
+.user-wrapper{
+/*    border: solid 1px #000;*/
+    background: #fff;
+    box-shadow: 10px 5px #ddd;  
+    border-radius: 2%;
+    margin: 5%;
+}
+
+.user-saying-text{
+    margin-top: 4%;
+}
+.name,.address{
+    font-weight: bold;
+    text-align: center;
+     margin: 0 0 0 10%;
+}
+.user-wrapper-2{
+    margin-left: 10%;
+}
+.testimonials-heading{
+   color: #251C3C;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: serif;
+}
+/*******************************************
+            LINKS
+***********************************************/
+#youtube{
+    margin-top: 10%;
+}
+#youtube .about-heading{
+    text-align: left;
+/*    line-height: 100%;*/
+}
+.youtube-text{
+    margin: 10% 0;
+    font-size: 18px;
+}
+
+
+/*****************************************
+        FOOTER
+*****************************************/
+
+#footer{
+    margin-top: 10%;
+    background: #F2F4F7;
+    padding-bottom: 5%;
+}
+.footer-heading{
+    color: #251C3C;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: serif;
+    
+}
+.ul>li{
+    list-style:  none;
+    
+}
+ul{
+    padding: 0;
+}
+input{
+    margin-bottom: 2%;
+}
+.btn-back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    padding: 5px 15px;
+    display: none;
+}
