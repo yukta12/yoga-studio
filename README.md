@@ -19,4 +19,4 @@ git clone https://github.com/yukta12/Yoga-studio.git
 
 ## Credits 
 - Landing page check [here](https://www.uplabs.com/posts/yoga-studio-landing-page-free-xd-source-file)
-- icons and other images [dribble](https://dribbble.com/)
+- icons and other images [dribbble](https://dribbble.com/)
