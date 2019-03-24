@@ -16,5 +16,6 @@ git clone https://github.com/yukta12/Yoga-studio.git
 # Run the index file
 - index.html 
 ```
-
+## images
+<img src="https://github.com/yukta12/Yoga-studio/blob/master/images/landing.png" width="400">
 
